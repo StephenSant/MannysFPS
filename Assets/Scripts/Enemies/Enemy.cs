@@ -2,10 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour,IKillable
 {
     public int health = 100;
     public int attackDamage = 15;
+
+    public void Die()
+    {
+        throw new System.NotImplementedException();
+    }
+
     public void TakeDamage(int damage)
     {
         health -= damage;
@@ -14,5 +20,4 @@ public class Enemy : MonoBehaviour
             Destroy(gameObject);
         }
     }
-	
 }

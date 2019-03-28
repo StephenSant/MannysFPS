@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4280104716846588}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4017964201580366}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AimTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4123927273926040}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WeaponSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4796404745584766}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Elbow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4321430209702396}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 20256909534674868}
   - component: {fileID: 81774195137581996}
   - component: {fileID: 114249756822928674}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CameraSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 23989783467741630}
   - component: {fileID: 143163937948668760}
   - component: {fileID: 114473401223972252}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,6 +344,8 @@ MonoBehaviour:
   gravity: 10
   groundRayDistance: 1.2
   interactRange: 10
+  interactUIPrefab: {fileID: 0}
+  interactUIParent: {fileID: 0}
   attachedCamera: {fileID: 0}
   hand: {fileID: 0}
   currentWeapon: {fileID: 0}
